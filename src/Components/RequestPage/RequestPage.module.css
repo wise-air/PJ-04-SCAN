@@ -68,8 +68,9 @@
 .block3 {
     padding-top: 21px;
     width: 444px;
-    color: var(--base-green);
+    color: var(--dark-green);
 }
+
 
 .block3 label {
     padding-top: 13px;
@@ -79,6 +80,11 @@
     width: 0;
     height: 20px;
     margin-right: 37px;
+    opacity: 40%;
+}
+
+.block3 input:checked {
+    opacity: 100%;
 }
 
 .block3 input::after {
@@ -96,7 +102,6 @@
     width: 20px;
     height: 20px;
     background: url("./check_checked.png");
-
 }
 
 .block4 {
@@ -107,17 +112,17 @@
 
 .innLabel {
     padding-top: 0;
-    color: var(--base-green);
+    color: var(--dark-green);
 }
 
 .tonalityLabel {
     padding-top: 14px;
-    color: var(--base-green);
+    color: var(--dark-green);
 }
 
 .limitLabel {
     padding-top: 31px;
-    color: var(--base-green);
+    color: var(--dark-green);
 }
 
 .inputError {
@@ -147,11 +152,11 @@
     font-size: 14px;
     letter-spacing: 0.42px;
     text-align: center;
-    color: var(--base-green);
+    color: var(--base-black);
 }
 
 .redInput {
-    border-color: red;
+    border-color: var(--add-red);
 }
 
 .innInput::placeholder, .limitInput::placeholder {
@@ -162,7 +167,7 @@
 
 .dateLabel {
     display: block;
-    color: var(--base-green);
+    color: var(--dark-green);
 }
 
 .startDate {
@@ -223,12 +228,17 @@
     width: 306px;
     height: 59px;
     border-radius: 5px;
-    background: var(--base-green);
+    background: var(--dark-green);
     border: none;
-    color: var(--base-white);
+    color: var(--base-green);
     font-size: 22px;
     cursor: pointer;
     letter-spacing: 0.66px;
+}
+
+.submit:hover {
+    color: var(--base-black);
+    background-color: var(--base-green);
 }
 
 .submit:disabled {

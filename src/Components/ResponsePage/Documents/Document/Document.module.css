@@ -78,7 +78,7 @@
 }
 
 .text {
-    color: var(--base-green);
+    color: var(--dark-green);
 }
 
 .img {
@@ -97,17 +97,18 @@
 }
 
 .readSource {
-    color: var(--base-black);
+    color: var(--base-green);
     text-decoration: none;
     border-radius: 5px;
-    background: var(--base-green);
+    background: var(--dark-green);
     font-size: 16px;
     letter-spacing: 0.32px;
     padding: 14px 32px;
 }
 
-.readSource:hover, .readSource:visited {
+.readSource:hover {
     color: var(--base-black);
+    background-color: var(--base-green);
 }
 
 .words {

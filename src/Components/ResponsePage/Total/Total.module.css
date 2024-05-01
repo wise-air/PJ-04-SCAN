@@ -1,7 +1,6 @@
 
 .total {
     padding-top: 114px;
-
 }
 
 .head2 {
@@ -40,6 +39,10 @@
     cursor: pointer;
 }
 
+.imgLeft:hover {
+    scale: 130%;
+}
+
 .imgRight {
     position: absolute;
     right: 0;
@@ -48,6 +51,10 @@
     height: 39px;
     opacity: 0.2;
     cursor: pointer;
+}
+
+.imgRight:hover {
+    scale: 130%;
 }
 
 .content {
@@ -61,14 +68,14 @@
     justify-content: stretch;
 
     border-radius: 10px;
-    border: 2px solid var(--base-green);
+    border: 2px solid var(--dark-green);
     height: 158px;
     box-sizing: border-box;
 }
 
 .legend {
     min-width: 133px;
-    background-color: var(--base-green);
+    background-color: var(--dark-green);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -97,7 +104,7 @@
     justify-content: flex-start;
     overflow-x: hidden;
     padding: 15px 0;
-    color: var(--base-green);
+    color: var(--dark-green);
 }
 
 .itemsContainer {

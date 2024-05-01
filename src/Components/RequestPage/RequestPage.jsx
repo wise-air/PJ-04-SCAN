@@ -157,7 +157,6 @@ const RequestPage = () => {
                             defaultValue={request.tonality}>
                         <option value="any">Любая</option>
                         <option value="negative">Негативная</option>
-                        <option value="neutral">Нейтральная</option>
                         <option value="positive">Позитивная</option>
                     </select>
                     <label className={css.limitLabel} htmlFor="request_limit">
@@ -177,7 +176,7 @@ const RequestPage = () => {
                            defaultValue={request.startDate}
                            className={state.dateError ? `${css.startDate} ${css.redInput}` : `${css.startDate}`}/>
                     <input onChange={validateForm} ref={endDate} type="date"
-                           data-placeholder="Дата конца" required={true}
+                           data-placeholder="Дата окончания" required={true}
                            defaultValue={request.endDate}
                            className={state.dateError ? `${css.endDate} ${css.redInput}` : `${css.endDate}`}/>
                     <div className={css.dateError}>
@@ -190,7 +189,6 @@ const RequestPage = () => {
                         <input ref={maxFullness} type="checkbox" defaultChecked={request.maxFullness}/>
                         Признак максимальной полноты
                     </label>
-
                     <label>
                         <input ref={inBusinessNews} type="checkbox" defaultChecked={request.inBusinessNews}/>
                         Упоминания в бизнес-контексте

@@ -79,8 +79,8 @@
 }
 
 .menuActive {
-    color: var(--base-green);
-    border-bottom: 2px solid var(--base-green);
+    color: var(--dark-green);
+    border-bottom: 2px solid var(--dark-green);
 }
 
 .menuNormal {

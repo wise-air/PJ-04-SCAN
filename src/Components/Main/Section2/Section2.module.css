@@ -42,6 +42,10 @@
     cursor: pointer;
 }
 
+.imgLeft:hover {
+    scale: 130%;
+}
+
 .imgRight {
     position: absolute;
     right: -18px;
@@ -50,6 +54,10 @@
     height: 39px;
     opacity: 0.2;
     cursor: pointer;
+}
+
+.imgRight:hover {
+    scale: 130%;
 }
 
 .item {
@@ -78,7 +86,7 @@
 }
 
 .itemText {
-    color: var(--base-green);
+    color: var(--dark-green);
     font-family: var(--inter);
     font-size: 18px;
     font-style: normal;

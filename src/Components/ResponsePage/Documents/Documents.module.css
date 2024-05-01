@@ -29,12 +29,17 @@
     width: 305px;
     height: 59px;
     border-radius: 5px;
-    background-color: var(--base-green);
+    background-color: var(--dark-green);
     border: none;
-    color: var(--base-white);
+    color: var(--base-green);
     font-size: 22px;
     font-weight: 500;
     letter-spacing: 0.88px;
+}
+
+.moreButton:hover {
+    color: var(--base-black);
+    background-color: var(--base-green);
 }
 
 @media screen and (max-width: 1439px) {

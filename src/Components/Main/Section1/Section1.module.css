@@ -34,8 +34,13 @@
     padding: 16px 65px;
     border-radius: 5px;
     border: 0;
+    background-color: var(--dark-green);
+    color: var(--base-green);
+}
+
+.button:hover {
+    color: var(--base-black);
     background-color: var(--base-green);
-    color: var(--base-white);
 }
 
 .image {

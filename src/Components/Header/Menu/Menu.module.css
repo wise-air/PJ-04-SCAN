@@ -20,6 +20,10 @@
     letter-spacing: 0.14px;
     text-decoration: none;
     color: var(--dark-green);	
+}
+
+.menuActive:hover {
+    color: var(--base-black);
     border-bottom: solid 0.1em;
 }
 
@@ -28,6 +32,11 @@
     letter-spacing: 0.14px;
     text-decoration: none;
     color: var(--base-green);
+}
+
+.menuNormal:hover {
+    color: var(--base-black);
+    border-bottom: solid 0.1em;
 }
 
 @media screen and (max-width: 1439px) {

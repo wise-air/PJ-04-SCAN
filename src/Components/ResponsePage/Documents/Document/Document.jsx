@@ -71,7 +71,7 @@ const Document = ({doc}) => {
                         Читать в источнике
                     </a>
                     <div className={css.words}>
-                        {Number(doc.attributes.wordCount).toLocaleString()} слова
+                        {Number(doc.attributes.wordCount).toLocaleString()} слов
                     </div>
 
                 </div>

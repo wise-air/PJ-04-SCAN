@@ -1,6 +1,6 @@
 .footer {
     height: 137px;
-    background-color: var(--base-green);
+    background-color: var(--dark-green);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

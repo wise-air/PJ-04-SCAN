@@ -16,7 +16,7 @@
 .name {
     font-size: 14px;
     opacity: 0.7;
-    color: #D20A11;
+    color: #000000;
 }
 
 .exit {
@@ -25,19 +25,15 @@
 }
 
 .logout {
-    opacity: 0.4;
+    /* opacity: 0.4; */
     text-decoration: none;
-    color: var(--base-green);
+    color: var(--dark-green);
     font-size: 10px;
     letter-spacing: 0.1px;
 }
 
 .logout:hover {
-    color: var(--base-green);
-}
-
-.logout:visited {
-    color: var(--dark-green);
+    color: var(--base-black);
 }
 
 .right {
