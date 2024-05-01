@@ -1,0 +1,95 @@
+.section {
+    margin-top: 24px;
+    height: 620px;
+    position: relative;
+}
+
+.text1 {
+    width: 743px;
+    font-family: var(--ferry);
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-top: 41px;
+    color: var(--dark-green);
+}
+.text2 {
+    width: 534px;
+    font-family: var(--inter);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding-top: 24px;
+    color: var(--base-green);
+}
+
+.button {
+    font-family: var(--inter);
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    margin-top: 70px;
+    padding: 16px 65px;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--base-green);
+    color: var(--base-white);
+}
+
+.image {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.patch {
+    background-color: var(--base-white);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    bottom: 550px;
+}
+
+@media screen and (max-width: 1439px) {
+    .section {
+        margin-top: 0;
+        height: 698px;
+    }
+
+    .text1 {
+        width: 361px;
+        padding-top: 17px;
+        font-size: 28px;
+        letter-spacing: 0.28px;
+    }
+    .text2 {
+        width: 327px;
+        padding-top: 24px;
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+
+    .button {
+        margin-top: 26px;
+    }
+
+    .image {
+        width: 347px;
+        height: 327px;
+        z-index: -1;
+        right: -12px;
+    }
+
+    .patch {
+        background-color: #FF5959;
+        right: 10px;
+        bottom: 295px;
+        width: 30px;
+        height: 30px;
+    }
+
+}

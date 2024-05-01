@@ -1,0 +1,243 @@
+
+.tariff {
+    width: 415px;
+    height: 540px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+    box-sizing: border-box;
+}
+
+.tariff + .tariff {
+    margin-left: 38px;
+}
+
+.head {
+    height: 130px;
+    position: relative;
+    font-size: 20px;
+    padding: 28px;
+    letter-spacing: 0.2px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: var(--inter);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.subTitle {
+    font-family: var(--inter);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.icon {
+    position: absolute;
+    right: 13px;
+    bottom: 35px;
+
+}
+
+.body {
+    position: relative;
+    padding-left: 29px;
+}
+
+.current {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    color: var(--base-white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    background-color: var(--base-green);
+    padding: 3px 13px;
+}
+
+.price {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 33px;
+    color: var(--base-green);
+}
+
+.oldPrice {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: line-through;
+    padding-left: 21px;
+    opacity: 0.5;
+}
+
+.priceText {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+    color: var(--base-green);
+}
+
+.content {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 60px;
+    color: var(--dark-green);
+}
+
+.contentList {
+    list-style: none;
+    padding-top: 5px;
+    color: var(--dark-green);
+}
+
+.contentItem {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    padding-top: 3px;
+}
+
+.contentItem::before {
+    content: " ";
+    background: url("check.png"), no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-right: 7px;
+}
+
+.button {
+    padding-top: 55px;
+}
+
+.buttonAccount {
+    border: none;
+    border-radius: 5px;
+    background: var(--add-gray);
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    width: 355px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-green);
+}
+
+.buttonMore {
+    border-radius: 5px;
+    background: var(--add-blue);
+    color: var(--dark-green);
+    border: none;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    width: 355px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 1439px) {
+    .tariff {
+        width: 335px;
+        height: 512px;
+    }
+
+    .tariff + .tariff {
+        margin-left: auto;
+        margin-top: 38px;
+    }
+
+    .head {
+        padding-left: 22px;
+    }
+
+    .title {
+        font-size: 20px;
+        letter-spacing: 0.2px;
+    }
+
+    .subTitle {
+        padding-top: 25px;
+        width: 285px;
+    }
+
+    .icon {
+        width: 42px;
+        bottom: 64px;
+    }
+
+    .body {
+        padding-left: 22px;
+    }
+
+    .current {
+    }
+
+    .price {
+        font-size: 30px;
+        letter-spacing: 0.3px;
+        padding-top: 22px;
+    }
+
+    .oldPrice {
+    }
+
+    .priceText {
+    }
+
+    .content {
+        padding-top: 37px;
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+
+    .contentList {
+    }
+
+    .contentItem {
+        font-size: 16px;
+        letter-spacing: 0.16px;
+    }
+
+    .contentItem::before {
+    }
+
+    .button {
+        padding-top: 38px;
+    }
+
+    .buttonAccount {
+        width: 286px;
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+
+    .buttonMore {
+        width: 286px;
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+}

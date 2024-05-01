@@ -1,0 +1,376 @@
+
+.request {
+    position: relative;
+    padding-top: 62px;
+    padding-left: 60px;
+    min-height: 830px;
+}
+
+.head {
+    font-family: var(--ferry);
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    width: 817px;
+    padding-top: 5px;
+    color: var(--dark-green);
+}
+
+.subHead {
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    width: 534px;
+    padding-top: 27px;
+    color: var(--base-green);
+}
+
+.form {
+    margin-top: 47px;
+    margin-left: -6px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 872px;
+    height: 543px;
+    border-radius: 10px;
+    background-color: var(--base-white);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+}
+
+.container label {
+    display: block;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 44px;
+    padding-top: 30px;
+    width: 380px;
+}
+
+.block2 {
+    padding-left: 44px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    width: 380px;
+}
+
+.block3 {
+    padding-top: 21px;
+    width: 444px;
+    color: var(--base-green);
+}
+
+.block3 label {
+    padding-top: 13px;
+}
+
+.block3 input {
+    width: 0;
+    height: 20px;
+    margin-right: 37px;
+}
+
+.block3 input::after {
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("check_empty.png");
+
+}
+
+.block3 input:checked::after {
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("./check_checked.png");
+
+}
+
+.block4 {
+    padding-top: 140px;
+    padding-left: 100px;
+
+}
+
+.innLabel {
+    padding-top: 0;
+    color: var(--base-green);
+}
+
+.tonalityLabel {
+    padding-top: 14px;
+    color: var(--base-green);
+}
+
+.limitLabel {
+    padding-top: 31px;
+    color: var(--base-green);
+}
+
+.inputError {
+    color: var(--add-red);
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    text-align: center;
+    width: 242px;
+}
+
+.dateError {
+    color: var(--add-red);
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    text-align: center;
+}
+
+.innInput, .tonalitySelect, .limitInput, .startDate, .endDate {
+    box-sizing: border-box;
+    width: 242px;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid var(--add-gray);
+    background: var(--base-white);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    color: var(--base-green);
+}
+
+.redInput {
+    border-color: red;
+}
+
+.innInput::placeholder, .limitInput::placeholder {
+    text-align: center;
+    color: var(--add-gray);
+    opacity: 0.4;
+}
+
+.dateLabel {
+    display: block;
+    color: var(--base-green);
+}
+
+.startDate {
+    width: 175px;
+    margin-right: 20px;
+}
+
+.endDate {
+    width: 175px;
+
+}
+
+.block2 input[type="date"] {
+    display: inline-block;
+}
+
+.block2 input[type="date"]::before {
+    content: attr(data-placeholder);
+    width: 100%;
+    background-color: var(--base-white);
+    text-align: center;
+    color: var(--add-gray);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+}
+
+.block2 input[type="date"]:focus::before {
+    display: none;
+}
+.block2 input[type="date"]:valid::before {
+    display: none;
+}
+
+
+
+.rocket {
+    position: absolute;
+    top: 351px;
+    left: 1005px;
+}
+
+.sheet {
+    position: absolute;
+    top: 132px;
+    left: 938px;
+
+}
+
+.folders {
+    position: absolute;
+    top: 150px;
+    left: 1195px;
+
+}
+
+.submit {
+    margin-top: 6px;
+    width: 306px;
+    height: 59px;
+    border-radius: 5px;
+    background: var(--base-green);
+    border: none;
+    color: var(--base-white);
+    font-size: 22px;
+    cursor: pointer;
+    letter-spacing: 0.66px;
+}
+
+.submit:disabled {
+    border-radius: 5px;
+    opacity: 0.5;
+    cursor: default;
+    background-color: var(--add-green);
+    color: var(--dark-green);
+}
+
+.terms {
+    padding-top: 9px;
+    color: var(--add-gray);
+    font-size: 14px;
+    letter-spacing: 0.42px;
+}
+
+@media screen and (max-width: 1439px) {
+    .request {
+        padding: 0 26px 0 14px;
+        min-height: 1400px;
+    }
+
+    .head {
+        width: 361px;
+        font-size: 28px;
+        letter-spacing: 0.28px;
+        padding-top: 16px;
+    }
+
+    .subHead {
+        width: 297px;
+        font-size: 18px;
+    }
+
+    .form {
+        width: 375px;
+        height: 688px;
+        margin-top: 18px;
+        margin-left: -14px;
+    }
+
+    .container {
+    }
+
+    .container label {
+    }
+
+    .block1 {
+        padding-left: 15px;
+        padding-top: 34px;
+        width: 380px;
+    }
+
+    .block2 {
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 380px;
+    }
+
+    .block3 {
+        display: none;
+    }
+
+    .block3 label {
+    }
+
+    .block3 input {
+    }
+
+    .block3 input::after {
+    }
+
+    .block3 input:checked::after {
+    }
+
+    .block4 {
+        padding-top: 2px;
+        padding-left: 15px;
+        width: 380px;
+    }
+
+    .innLabel {
+    }
+
+    .tonalityLabel {
+    }
+
+    .limitLabel {
+    }
+
+    .innInput, .tonalitySelect, .limitInput, .startDate, .endDate {
+        width: 335px;
+    }
+
+    .innInput::placeholder, .limitInput::placeholder {
+    }
+
+    .dateLabel {
+    }
+
+    .startDate {
+    }
+
+    .endDate {
+    }
+
+    .block2 input[type="date"] {
+    }
+
+    .block2 input[type="date"]::before {
+    }
+
+    .block2 input[type="date"]:focus::before {
+    }
+    .block2 input[type="date"]:valid::before {
+    }
+
+    .rocket {
+        top: 974px;
+        left: 36px;
+        width: 372px;
+    }
+
+    .sheet {
+        top: 116px;
+        left: 290px;
+        width: 60px;
+    }
+
+    .folders {
+        display: none;
+    }
+
+    .submit {
+        width: 335px;
+    }
+
+    .submit:disabled {
+    }
+
+    .terms {
+    }
+}

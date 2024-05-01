@@ -1,0 +1,156 @@
+
+.mobileMenu {
+    display: none;
+    position: absolute;
+    top: 34px;
+    right: 26px;
+}
+
+.mobileContainer {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.panel {
+    display: none;
+    height: 494px;
+    background-color: var(--base-green);
+}
+
+.head {
+    position: relative;
+    height: 100px;
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+}
+
+.close {
+    position: absolute;
+    top: 34px;
+    right: 27px;
+}
+
+.menu {
+
+}
+
+.menuList {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.menuItem {
+    padding-top: 26px;
+}
+
+.menuItem a {
+    color: var(--base-white);
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+}
+
+.menuItem a:hover {
+    color: var(--base-white);
+}
+
+.menuItem a:visited {
+    color: var(--base-white);
+}
+
+.menuActive {
+
+}
+
+.menuNormal {
+
+}
+
+.account {
+    padding-top: 74px;
+    text-align: center;
+}
+
+.exit {
+
+}
+
+.enter {
+
+}
+
+.logoutLink {
+    color: var(--base-black);
+    border-radius: 5px;
+    background: var(--add-green);
+    padding: 14px 118px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.logoutLink:hover {
+    color: var(--base-black);
+}
+
+.logoutLink:visited {
+    color: var(--base-black);
+}
+
+.register {
+
+}
+
+.registerLink {
+    color: var(--base-white);
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+}
+
+.registerLink:hover {
+    color: var(--base-white);
+}
+
+.registerLink:visited {
+    color: var(--base-white);
+}
+
+.login {
+    padding-top: 32px;
+}
+
+.loginLink {
+    color: var(--base-black);
+    border-radius: 5px;
+    background: var(--add-green);
+    padding: 14px 118px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.loginLink:hover {
+    color: var(--base-black);
+}
+
+.loginLink:visited {
+    color: var(--base-black);
+}
+
+@media screen and (max-width: 1439px) {
+    .mobileMenu {
+        display: block;
+    }
+    .mobileContainer {
+        display: block;
+    }
+}
+

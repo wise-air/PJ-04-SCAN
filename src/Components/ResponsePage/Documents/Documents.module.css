@@ -1,0 +1,64 @@
+
+.documents {
+    padding-top: 104px;
+}
+
+.head {
+    font-family: var(--ferry);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: var(--dark-green);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+
+.more {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.moreButton {
+    width: 305px;
+    height: 59px;
+    border-radius: 5px;
+    background-color: var(--base-green);
+    border: none;
+    color: var(--base-white);
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.88px;
+}
+
+@media screen and (max-width: 1439px) {
+    .documents {
+        padding-top: 58px;
+    }
+
+    .head {
+        font-size: 28px;
+        letter-spacing: 0.28px;
+    }
+
+    .content {
+        flex-direction: column;
+        padding-top: 38px;
+    }
+
+    .more {
+        padding-top: 31px;
+        padding-bottom: 57px;
+
+    }
+
+    .moreButton {
+        width: 334px;
+    }
+}

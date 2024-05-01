@@ -1,0 +1,14 @@
+
+.section {
+    padding-top: 70px;
+}
+
+@media screen and (max-width: 1439px) {
+    .section {
+        padding-top: 20px;
+    }
+
+    .section img {
+        width: 890px;
+    }
+}

@@ -1,0 +1,59 @@
+
+.response {
+    min-height: 700px;
+    position: relative;
+    padding: 0 60px;
+}
+
+.head {
+    width: 509px;
+    font-family: var(--ferry);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    padding-top: 66px;
+    color: var(--dark-green);
+}
+
+.subHead {
+    width: 447px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    padding-top: 39px;
+    color: var(--base-green);
+}
+
+.img{
+    position: absolute;
+    top: 25px;
+    right: 103px;
+}
+
+@media screen and (max-width: 1439px) {
+    .response {
+        padding: 0 26px 0 14px;
+    }
+
+    .head {
+        width: 344px;
+        font-size: 28px;
+        letter-spacing: 0.28px;
+        padding-top: 17px;
+    }
+
+    .subHead {
+        width: 344px;
+        font-size: 18px;
+        padding-top: 25px;
+    }
+
+    .img{
+        position: absolute;
+        top: 172px;
+        right: 6px;
+        width: 352px;
+    }
+
+}
+
+

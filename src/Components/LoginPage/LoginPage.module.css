@@ -1,0 +1,142 @@
+
+.signin {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 80px;
+}
+
+.left {
+    padding-left: 61px;
+    padding-top: 66px;
+    width: 750px;
+}
+
+.text {
+    font-family: var(--ferry);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    width: 100%;
+    color: var(--dark-green);
+}
+
+.image {
+    padding-left: 111px;
+    padding-top: 16px;
+}
+
+.right {
+
+}
+
+.form {
+    position: relative;
+    padding-top: 69px;
+    padding-left: 59px;
+}
+
+.frame {
+    width: 429px;
+    height: 523px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    padding: 10px 24px;
+    box-sizing: border-box;
+}
+
+.lock {
+    background: url("lock.svg");
+    width: 75.219px;
+    height: 92.065px;
+    position: absolute;
+    top: 15px;
+    left: 8px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    padding-top: 5px;
+}
+
+.menu a {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 9px 0;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+
+.menu a + a {
+    margin-left: 10px;
+}
+
+.menuActive {
+    color: var(--base-green);
+    border-bottom: 2px solid var(--base-green);
+}
+
+.menuNormal {
+    color: var(--add-gray);
+    border-bottom: 2px solid var(--add-gray);
+}
+
+.imageBottom {
+    display: none;
+    padding-top: 48px;
+    padding-left: 15px;
+    width: 334px;}
+
+
+@media screen and (max-width: 1439px) {
+    .text {
+        font-size: 22px;
+        letter-spacing: 0.44px;
+    }
+
+    .signin {
+        flex-direction: column;
+    }
+
+    .left {
+        padding-top: 28px;
+        padding-left: 14px;
+        width: 383px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .imageBottom {
+        display: inline-block;
+    }
+
+    .form {
+        padding-top: 125px;
+        padding-left: 14px;
+    }
+
+    .lock {
+        top: 45px;
+        left: 96px;
+    }
+
+    .frame {
+        width: 335px;
+        height: 504px;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+        padding: 10px 24px;
+        box-sizing: border-box;
+    }
+
+}

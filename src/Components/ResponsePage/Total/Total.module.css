@@ -1,0 +1,228 @@
+
+.total {
+    padding-top: 114px;
+
+}
+
+.head2 {
+    padding-top: 10px;
+    width: 447px;
+    font-family: var(--ferry);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    color: var(--dark-green);
+}
+
+.foundCount {
+    padding-top: 22px;
+    color: var(--add-gray);
+    font-size: 18px;
+    letter-spacing: 0.36px;
+}
+
+.carousel {
+    margin-top: 26px;
+    margin-left: -6px;
+    margin-right: -14px;
+    height: 158px;
+    position: relative;
+}
+
+.imgLeft {
+    position: absolute;
+    transform: scale(-100%);
+    left: 0;
+    top: 60px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.imgRight {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 39px;
+    height: 39px;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+
+    border-radius: 10px;
+    border: 2px solid var(--base-green);
+    height: 158px;
+    box-sizing: border-box;
+}
+
+.legend {
+    min-width: 133px;
+    background-color: var(--base-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.legend div {
+    color: var(--base-white);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    padding-left: 28px;
+}
+
+.noItems {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    padding: 15px 0;
+    color: var(--base-green);
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.item {
+    min-width: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.item + .item {
+    border-left: 2px solid var(--add-gray);
+}
+
+.wait {
+    background: url("./icon.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    animation: wait-rotate 2s infinite linear;
+    opacity: 0.5;
+}
+.waitText {
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: var(--dark-green);
+}
+
+@keyframes wait-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .total {
+        padding-top: 301px;
+
+    }
+
+    .head2 {
+        padding-top: 10px;
+        width: 335px;
+        font-size: 28px;
+        letter-spacing: 0.28px;
+    }
+
+    .foundCount {
+        padding-top: 16px;
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+
+    .carousel {
+        height: 142px;
+    }
+
+    .content {
+        height: 142px;
+        left: 30px;
+        right: 27px;
+        top: 5px;
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    .imgLeft {
+        top: 92px;
+        left: -8px;
+    }
+
+    .imgRight {
+        top: 92px;
+        right: -8px;
+    }
+
+    .legend {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex: 1;
+        padding: 0;
+    }
+
+    .legend div {
+        flex: 1;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .items {
+        padding: 0;
+        flex: 1;
+    }
+
+    .itemsContainer {
+        align-items: center;
+    }
+
+    .item {
+        flex-direction: row;
+        justify-content: space-around;
+        min-width: 293px;
+    }
+
+    .item div {
+        flex: 1;
+        text-align: center;
+    }
+
+    .item + .item {
+        border: 0;
+    }
+
+
+
+}
+
+
+

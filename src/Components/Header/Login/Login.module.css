@@ -1,0 +1,45 @@
+
+.login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 36px;
+    right: 60px;
+}
+
+.login a {
+    text-decoration: none;
+    color: var(--base-black);
+}
+
+.login a:hover {
+    color: var(--base-black);
+}
+
+.register {
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    opacity: 0.4;
+    padding-top: 4px;
+}
+
+.signin {
+    border-radius: 5px;
+    background-color: var(--add-green);
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    padding: 4px 11px;
+}
+
+.sep {
+    border-left: 2px solid var(--add-green);
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+    .login {
+        display: none;
+    }
+}

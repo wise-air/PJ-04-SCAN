@@ -1,0 +1,23 @@
+.header {
+    height: 93px;
+    padding: 0 60px;
+    position: relative;
+}
+
+.logo {
+    width: 141px;
+    height: 114px;
+    position: absolute;
+    top: -10px;
+}
+
+@media screen and (max-width: 1439px) {
+    .header {
+        padding: 0 26px 0 14px;
+    }
+    .logo {
+        width: 111px;
+        height: 93px;
+        top: 0;
+    }
+}

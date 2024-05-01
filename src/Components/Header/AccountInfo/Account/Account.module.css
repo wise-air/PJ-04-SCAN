@@ -1,0 +1,58 @@
+.account {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: absolute;
+    top: 28px;
+    right: 60px;
+}
+
+.left {
+    text-align: right;
+    padding-right: 4px;
+}
+
+.name {
+    font-size: 14px;
+    opacity: 0.7;
+    color: #D20A11;
+}
+
+.exit {
+    padding-top: 2px;
+    font-size: 10px;
+}
+
+.logout {
+    opacity: 0.4;
+    text-decoration: none;
+    color: var(--base-green);
+    font-size: 10px;
+    letter-spacing: 0.1px;
+}
+
+.logout:hover {
+    color: var(--base-green);
+}
+
+.logout:visited {
+    color: var(--dark-green);
+}
+
+.right {
+
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1439px) {
+    .account {
+        display: none;
+    }
+
+}

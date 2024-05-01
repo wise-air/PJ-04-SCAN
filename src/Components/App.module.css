@@ -1,0 +1,35 @@
+.app {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+    .app {
+        max-width: 375px;
+    }
+}
+
+/*@media screen and (max-width: 1200px) {*/
+/*    .app {*/
+/*        max-width: 992px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 992px) {*/
+/*    .app {*/
+/*        max-width: 768px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    .app {*/
+/*        max-width: 576px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 576px) {*/
+/*    .app {*/
+/*        min-width: 576px;*/
+/*    }*/
+/*}*/
